@@ -39,7 +39,7 @@ class Calculator {
 
         System.out.println("1. Sum");
         System.out.println("2. Subtraction");
-        System.out.println("3. Multiplication");
+        System.out.println("3. Multiplication");        
         System.out.println("4. Division");
         System.out.print("Enter your choice: ");
         int ch = sc.nextInt();

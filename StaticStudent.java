@@ -2,7 +2,7 @@ class StaticStudent {
 
     int rollNo;
     String name;
-    static String collegeName = "symbiosis instute of technology";
+    static String collegeName="Symbiosis Institute of technology";
 
     StaticStudent(int r, String n) {
         rollNo = r;
@@ -16,7 +16,7 @@ class StaticStudent {
     }
 
     public static void main(String[] args) {
-        StaticStudent s1 = new StaticStudent(101, "Mahi");
+        StaticStudent s1 = new StaticStudent(101,"Mahi");
         s1.display();
     }
 }
